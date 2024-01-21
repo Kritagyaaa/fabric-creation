@@ -1,12 +1,36 @@
-.btn{
-  z-index:1;
-}
+.logo :hover {
+   transform: scale(1.5); }
+ .container {
+      display: grid;
+      grid-template-columns: repeat(4, 2fr);
+      grid-gap: 50px;
+     }
 
-.btn{
+
+      .card {
+      background-color: #f8f9fa;
+      margin-bottom: 50px;
+      border: 1px solid #dee2e6;
+      border-radius: 28px; 
+      padding: 15px 0px 15px 15px;
+      height: 200px;
+      width: 400px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      margin-top: 50px;
+     }.container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      row-gap: 50px;
+      column-gap: 50px;
+    }
+
+ .btn{
+
   top: 75%;
-  left: 35%;
+  width: 200px;
   border: 1px solid black;
-  transform: translate(-50%, -50%);
+  /* transform: translate(-50%, -50%); */
   background-color: #000000;
   color: white ;
   font-size: 25px;
@@ -16,14 +40,62 @@
   padding: 12px 24px;
   background: black;
   cursor: pointer;
-  font-weight: ;
   border-radius: 16px;
   text-align: center;
+  /* display: flex; */
+  justify-content: left;
+  justify-content:space-evenly;
+  margin-top: 40px;
 }
 
 .btn:hover{
   background-color: white;
   color: black;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  justify-content:space-evenly;
+  font-family: 'Belleza', sans-serif;
+  align-items: center;
+  margin: 20px;
+  margin-top: 60px;
+}
+.sell :hover {
+ -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(0%);
+  transition: all 0.5s ease;
+  margin-bottom: 20px;
+
+}
+.donate:hover{ transform: scale(1.5);
+  background-color: white;
+            color:yellow;}
+
+  .sell:hover{ transform: scale(1.5);
+    background-color: white;
+              color:#158000;
+
+
+} 
+.sell, .donate {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.sell {
+  background-color: green;
+  color: white;
+}
+
+.donate {
+  background-color: orange;
+  color: white;
 }
 .logo-section.ult-new-ib img{
   -webkit-filter: grayscale(100%);
@@ -32,13 +104,15 @@
   transition: all 0.5s ease;
 }
 .logo-section img:hover {
+   transform: scale(1.5);
  -webkit-filter: grayscale(0%);
   -moz-filter: grayscale(0%);
   filter: grayscale(0%);
   transition: all 0.5s ease;
   margin-bottom: 20px;
-  border-top: 1px solid #980707; 
-  border-bottom: 1px solid #7e0808; 
+  /* border-top: 1px solid black;  */
+  border-bottom: 1px solid black; 
+
 }
 .fa-instagram{
   font-size: 50px;
@@ -60,16 +134,19 @@ padding: 10px;
     width: 45%;
     float: left;
     padding: 20px;
+    font-style: Alata;
     }
  .right {
     width: 45%;
     float: right;
-    padding: 20px;}
+    padding: 20px;
+  margin-top:40px;}
  .logo{
-     
+
       justify-content: space-evenly;
+      margin-top: 60px;
     }
-    
+
 
 
 .card1{
@@ -77,8 +154,8 @@ padding: 10px;
   width:500px;
   height: 400px;
   border-radius: 25px;
- 
-  
+
+
 }
 .Brands{
   width: 80%;
@@ -99,7 +176,7 @@ padding: 10px;
  .image1{
   padding: 0px;
  }
- .image1 img{
+.image1 img{
 border-radius: 25px;
  }
 
@@ -119,7 +196,7 @@ border-radius: 25px;
 
 body{
     margin: 0;
-   
+
 
 
     background-color:#e9e5dc;
@@ -147,6 +224,7 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
 
 .header1{
@@ -161,7 +239,7 @@ p{
 
 .name{
 
-    font-family: homemade apple;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 45px;
         margin-right: 2rem;
 
@@ -203,7 +281,7 @@ p{
 }
 
 .category{
-    text-align: center;
+    text-align: center;          
     font-size: large;
   font-family: League spartan ;
 }
@@ -396,16 +474,18 @@ a > p:hover{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: #ddb99c;
+    background-color:#f3eeea;
     height: 15vh;
     padding: 4rem;
 }
 
 .joinUs{
+  
     text-decoration: none;
     font-size: 30px;
+    width: 300px;
     font-weight: 600;
-    padding: 1rem 6rem;
+    padding: 1rem 0rem 1rem  2rem;
     border: 2px solid black;
     border-radius: 5%;
     color: black;
@@ -424,7 +504,17 @@ a{
 }
 
 .footerData{
+  padding-left: 1rem;
     font-size: xx-large    ;
+}
+
+.buttons :hover {
+ -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(0%);
+  transition: all 0.5s ease;
+  margin-bottom: 20px;
+
 }
 
 @media screen and (max-height: 800px ) {
@@ -472,7 +562,7 @@ a{
       height: auto;
       padding: 4rem 0rem;
     }
-    
+
 
     .sellerContainer{
       flex-direction: column;
@@ -496,7 +586,7 @@ a{
       object-fit: contain;
     }
 
-  
+
 
     .sellerBlock{
       width: auto;
@@ -514,3 +604,71 @@ a{
     }
 
 }
+body{
+  background-color: white;
+}
+.card1{
+  background-color: gray;
+  width:455px;
+  height: 250px;
+  border-radius: 25px;
+  margin-right:100px ;
+}
+.image1{
+  
+  padding: 0px;
+
+}
+.image1 img{
+  border-radius: 25px;
+}
+.card2{
+  background-color: gray;
+  width:455px;
+  height: 250px;
+  border-radius: 25px;
+}
+.image2{
+  padding: 0px;
+
+}
+.image2 img{
+  border-radius: 25px;
+}
+.CARDS{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.card3{
+  background-color: gray;
+  width:455px;
+  height: 250px;
+  border-radius: 25px;
+  margin-right: 100px;
+}
+.image3{
+  padding: 0px;
+
+
+}
+.image3 img{
+    border-radius: 25px;}
+
+    .card4{
+      background-color: gray;
+      width:455px;
+      height: 250px;
+      border-radius: 25px;
+    }
+    .image4{
+      padding: 0px;
+
+    }
+    .image4 img{
+      border-radius: 25px;}
+
+      .wrapper{
+        display: flex;
+        justify-content: center;
+      }
