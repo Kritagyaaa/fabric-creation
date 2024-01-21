@@ -2,6 +2,7 @@
     width: 45%;
     float: left;
     padding: 20px;
+    margin: 0;
     }
  .right {
     width: 45%;
@@ -25,7 +26,8 @@
 .logo-section {
   display: flex;
   align-items: center;
-  
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 .logo-section img {
   width: 100px;
