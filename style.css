@@ -5,24 +5,24 @@
   border: 1px solid black;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: #555;
-  color: black;
+  background-color: #000000;
+  color: white;
   font-size: 25px;
   font-family: 'Belleza', sans-serif;
   font-family: 'Ephesis', cursive;
   font-family: 'Karla', sans-serif;
   padding: 12px 24px;
-  background: transparent;
+  background: black;
   cursor: pointer;
   font-weight: bold;
   border-radius: 5px;
   text-align: center;
 }
 
-.btn:hover{
+/* .btn:hover{
   background-color: black;
   color: #e9e5dc;
-}
+} */
 
 .logo-section.ult-new-ib img{
   -webkit-filter: grayscale(100%);
@@ -59,10 +59,14 @@ font-size:  50px;
  .right {
     width: 45%;
     float: right;
-    padding: 20px;
+    padding: 20px;}
+ .logo{
+      display:flex;
+      justify-content: space-between;
+    }
     
 
-}
+
 .card1{
   background-color: whitesmoke;
   width:500px;
@@ -86,6 +90,7 @@ font-size:  50px;
   height: 100px;
   object-fit: contain;
 }
+
  .image1{
   padding: 0px;
  }
