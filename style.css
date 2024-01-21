@@ -18,6 +18,20 @@
  
   
 }
+.Brands{
+  width: 80%;
+  margin: 0 auto;
+}
+.logo-selction img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+.logo-selction img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
  .image1{
   padding: 0px;
  }
