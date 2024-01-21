@@ -1,3 +1,18 @@
+.logo-section.ult-new-ib img{
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: all 0.5s ease;
+}
+.logo-section img:hover {
+ -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  filter: grayscale(0%);
+  transition: all 0.5s ease;
+  margin-bottom: 20px;
+  border-top: 1px solid #980707; 
+  border-bottom: 1px solid #7e0808; 
+}
 .fa-instagram{
   font-size: 50px;
 }
@@ -234,7 +249,7 @@ a > p{
   background: transparent;
   cursor: pointer;
   font-weight: bold;
-  border-radius: 5px;
+  border-radius: 50%;
   text-align: center;
 }
 
