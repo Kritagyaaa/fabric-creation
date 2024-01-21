@@ -22,12 +22,12 @@
   width: 80%;
   margin: 0 auto;
 }
-.logo-selction img {
-  width: 100px;
-  height: 100px;
-  object-fit: contain;
+.logo-section {
+  display: flex;
+  align-items: center;
+  
 }
-.logo-selction img {
+.logo-section img {
   width: 100px;
   height: 100px;
   object-fit: contain;
