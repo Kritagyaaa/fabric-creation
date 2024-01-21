@@ -1,12 +1,19 @@
 .btn{
+  z-index:1;
+}
+
+.btn{
   position: absolute;
-  top: 85%;
-  left: 65%;
+  top: 75%;
+  left: 35%;
+  
+  
   border: 1px solid black;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #000000;
-  color: white;
+  color: white
+  ;
   font-size: 25px;
   font-family: 'Belleza', sans-serif;
   font-family: 'Ephesis', cursive;
@@ -14,16 +21,15 @@
   padding: 12px 24px;
   background: black;
   cursor: pointer;
-  font-weight: bold;
-  border-radius: 5px;
+  font-weight: ;
+  border-radius: 16px;
   text-align: center;
 }
 
-/* .btn:hover{
-  background-color: black;
-  color: #e9e5dc;
-} */
-
+.btn:hover{
+  background-color: white;
+  color: black;
+}
 .logo-section.ult-new-ib img{
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
@@ -111,24 +117,7 @@ border-radius: 25px;
 }
 
 
-.majordiscount .btn {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #555;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-}
 
-.majordiscount .btn:hover {
-  background-color: black;
-}
 body{
     margin: 0;
    
@@ -204,10 +193,6 @@ p{
     border-radius: 2px;
 }
 
-.btn{
-  z-index:1;
-}
-
 .signUp{
     display: flex;
     justify-content: space-between;
@@ -263,51 +248,7 @@ a > p{
 }
 
 
-.btn{
-  position: absolute;
-  top: 85%;
-  left: 65%;
-  border: 1px solid black;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #555;
-  color: black;
-  font-size: 25px;
-  font-family: 'Belleza', sans-serif;
-  font-family: 'Ephesis', cursive;
-  font-family: 'Karla', sans-serif;
-  padding: 12px 24px;
-  background: transparent;
-  cursor: pointer;
-  font-weight: bold;
-  border-radius: 50%;
-  text-align: center;
-}
 
-.btn:hover{
-  background-color: black;
-  color: #e9e5dc;
-}
-
-/* .btn {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #555;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  text-align: center;
-} */
-
-/* .btn{
-  position: absolute;
-} */
 
 .header2{
     padding: 0 1rem;
@@ -558,9 +499,7 @@ a{
       object-fit: contain;
     }
 
-    .btn{
-      display: none;
-    }
+  
 
     .sellerBlock{
       width: auto;
