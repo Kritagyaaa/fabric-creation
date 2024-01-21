@@ -1,3 +1,29 @@
+.btn{
+  position: absolute;
+  top: 85%;
+  left: 65%;
+  border: 1px solid black;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: black;
+  font-size: 25px;
+  font-family: 'Belleza', sans-serif;
+  font-family: 'Ephesis', cursive;
+  font-family: 'Karla', sans-serif;
+  padding: 12px 24px;
+  background: transparent;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.btn:hover{
+  background-color: black;
+  color: #e9e5dc;
+}
+
 .logo-section.ult-new-ib img{
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
@@ -79,7 +105,7 @@ border-radius: 25px;
   height: auto;
 }
 
-/* Style the button and place it in the middle of the majordiscount/image */
+
 .majordiscount .btn {
   position: absolute;
   top: 50%;
@@ -100,7 +126,7 @@ border-radius: 25px;
 }
 body{
     margin: 0;
-    /* background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-042.jpg"); */
+   
 
 
     background-color:#e9e5dc;
