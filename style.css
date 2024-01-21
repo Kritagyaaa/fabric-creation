@@ -3,17 +3,12 @@
 }
 
 .btn{
-  position: absolute;
   top: 75%;
   left: 35%;
-  
-  
   border: 1px solid black;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   background-color: #000000;
-  color: white
-  ;
+  color: white ;
   font-size: 25px;
   font-family: 'Belleza', sans-serif;
   font-family: 'Ephesis', cursive;
@@ -47,15 +42,19 @@
 }
 .fa-instagram{
   font-size: 50px;
+  padding: 10px;
 }
 .fa-square-facebook{
 font-size:  50px;
+padding: 10px;
 }
 .fa-square-pinterest {
   font-size: 50px;
+  padding: 10px;
 }
 .fa-square-twitter{
   font-size: 50px;
+  padding: 10px;
 }
 .left {
     width: 45%;
@@ -67,8 +66,8 @@ font-size:  50px;
     float: right;
     padding: 20px;}
  .logo{
-      display:flex;
-      justify-content: space-between;
+     
+      justify-content: space-evenly;
     }
     
 
@@ -473,9 +472,7 @@ a{
       height: auto;
       padding: 4rem 0rem;
     }
-    .subDiscounts{
-      /* display: none; */
-    }
+    
 
     .sellerContainer{
       flex-direction: column;
