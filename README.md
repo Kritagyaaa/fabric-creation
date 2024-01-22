@@ -3,5 +3,6 @@ Fiberwise is a collective initiative committed to combating fabric pollution. As
    This could not be possible without the help of my team and awesome teamwork we have
 
    Tech used: HTML , CSS , JS
-   You can acess this site at:
+   
+   You can acess this site at:https://fiberwise.netlify.app/
         
